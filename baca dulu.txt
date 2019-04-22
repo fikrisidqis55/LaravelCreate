@@ -1,0 +1,10 @@
+buat model Buku
+php artisan make:model Buku
+
+buat migration table
+php artisan make:migration create_bukus_table --create=bukus
+
+setelah itu di .env ubah nama database sesuai db anda yang sudah dibuat
+*buatnya cukup database saja
+
+jalankan php artisan migrate
